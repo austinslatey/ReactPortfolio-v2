@@ -1,7 +1,14 @@
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Creepster", cursive;
+}
+
 .container {
+    flex: 1;
     display: grid;
-    grid-template-columns: auto auto;
-    background-color: #2196F3;
+    grid-template-columns: auto auto auto;
+    background-color: #2196;
     padding: 10px;
 }
 
@@ -11,9 +18,18 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    width: 90%;
+    margin: 10px;
+}
+img {
+    width: 90%;
 }
 
-#uofmImg {
-    width: 678px;
-    height: 517px;
+#responsiveCssContainer {
+     grid-column: 2;
+     grid-row: 3;
 }
+
+
+
+

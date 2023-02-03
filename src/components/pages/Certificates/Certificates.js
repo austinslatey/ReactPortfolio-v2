@@ -11,9 +11,9 @@ import './Certificates.css'
 export default function Certificates() {
     return (
         <div>
-            <h3>Certificates</h3>
+            <h2>Certificates</h2>
             <div className="container">
-                <div id="uofmContainer"className="img-container">
+                <div id="uofmContainer" className="img-container">
                     <img src={UofM} alt="uofm" id="uofmImg"></img>
                 </div>
                 <div className="img-container">
@@ -31,8 +31,8 @@ export default function Certificates() {
                 <div className="img-container">
                     <img src={Cli} alt="Cli"></img>
                 </div>
-                <div className="img-container">
-                    <img src={responsiveCSS} alt="responsiveCSS"></img>
+                <div id="responsiveCssContainer" className="img-container">
+                    <img src={responsiveCSS} alt="responsiveCSS" id="responsiveCSS"></img>
                 </div>
             </div>
         </div>
