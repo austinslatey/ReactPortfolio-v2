@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
+import Certificates from "./pages/Certificates/Certificates";
 
 import Footer from "../Footer/Footer";
 
@@ -32,7 +33,7 @@ export default function PortfolioContainer() {
     if (currentPage === "Contact") {
       return <Contact />;
     }
-    // if (currentPage === "ContactForm") return <ContactForm />;
+     if (currentPage === "Certificates") return <Certificates />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
