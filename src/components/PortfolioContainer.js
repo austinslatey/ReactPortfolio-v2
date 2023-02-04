@@ -40,7 +40,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <div>
+      <div >
       {/* the handlepage function is what were using as prop */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}

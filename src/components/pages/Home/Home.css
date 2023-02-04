@@ -1,7 +1,16 @@
+.homeContainer {
+  background-image: linear-gradient(#0bd1ff, #ffa3ff, #ffd34e);
+  height: 100vh;
+  min-height: 100vh;
+}
+
 .banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
   position: relative;
-  height: 43.75rem;
   background-size: cover;
+  background-image: linear-gradient(#0bd1ff, #ffa3ff, #ffd34e);
   text-align: center;
   margin-bottom: 25px;
 }
@@ -9,10 +18,10 @@
 
 
 h1 {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 1.25rem;
   font-family: "Creepster", cursive;
-  font-size: 8rem;
+  font-size: 6rem;
   color: rgba(0, 0, 0, 0.7);
 }
 

@@ -1,7 +1,8 @@
 .footer {
     position: sticky;  
     text-align: center;
-    color: white;
+    background-image: linear-gradient(#0bd1ff, #ffa3ff, #ffd34e); 
+
 }
 
 a.icon {
