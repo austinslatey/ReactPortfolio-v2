@@ -7,24 +7,30 @@ import cubeMatcher from './assets/cubeMatcher.png'
 export default function Projects() {
     return (
         <div>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             <div className="cardContainer">
                 <div className="card">
+                    <div className="img-container">
                     <img src={bugInvaders} alt="bugInv"></img>
+                    </div>
                     <div className="card-text">
                         <p>Phaser.js Skill Path</p>
                         <a href="https://austinslatey.github.io/bug-invaders/">Play Bug-Invaders</a>
                     </div>
                 </div>
-                <div>
+                <div className="card">
+                <div className="img-container">
                     <img src={cubeMatcher} alt="cubeMatch"></img>
+                    </div>
                     <div className="card-text">
                         <p>Phaser.js Skill Path</p>
                         <a href="https://austinslatey.github.io/Cube-Matcher/">Play Cube-Matcher</a>
                     </div>
                 </div>
-                <div>
+                <div className="card">
+                <div className="img-container">
                     <img src={winterWonderland} alt="winterWonderland"></img>
+                    </div>
                     <div className="card-text">
                         <p>Phaser.js Skill Path</p>
                         <a href="https://austinslatey.github.io/winter-wonderland/">Play Winter-Wonderland</a>

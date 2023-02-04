@@ -13,8 +13,8 @@ export default function Certificates() {
         <div>
             <h2>Certificates</h2>
             <div className="container">
-                <div id="uofmContainer" className="img-container">
-                    <img src={UofM} alt="uofm" id="uofmImg"></img>
+                <div className="img-container">
+                    <img src={UofM} alt="uofm"></img>
                 </div>
                 <div className="img-container">
                     <img src={PhaserJS} alt="PhaserJS"></img>
