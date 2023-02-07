@@ -1,7 +1,8 @@
-.footer {
-    position: sticky;  
+.footer {  
     text-align: center;
-    background-image: linear-gradient(#0bd1ff, #ffa3ff, #ffd34e); 
+    background-image: linear-gradient(#0bd1ff, #ffa3ff, #ffd34e);
+    padding: 10px;
+    margin: 5px;
 
 }
 
@@ -16,14 +17,5 @@ a.icon {
 svg {
     height: 50px;
     width: 50px;
-
+    padding: 30px;
 }
-
-
-
-/* py: 3,
-px: 2,
-mt: "auto",
-minHeight: "30px",
-textAlign: "center",
-backgroundColor: "#010c3f", */

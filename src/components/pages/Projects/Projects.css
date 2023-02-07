@@ -1,33 +1,32 @@
 .cardContainer {
-    flex: 1;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
     grid-template-rows: auto auto;
     background-color: #2196;
     padding: 10px;
     resize: both;
     overflow: auto;
-    
 }
 
 .card {
-    flex: 1;
     background-color: #2196;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    width: 90%;
     margin: 10px;
+    justify-content: space-between;
 
 }
+
 img {
-    width: 85%;
+    height: 350px;
 }
 
 .card-text {
     color: #fff;
+    text-align: center;
 }
 
 .card-text a {
