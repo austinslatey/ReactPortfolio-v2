@@ -3,6 +3,9 @@ import './Projects.css'
 import bugInvaders from './assets/bugInvaders.png'
 import winterWonderland from './assets/winterWonderland.png'
 import cubeMatcher from './assets/cubeMatcher.png'
+import concertScout from './assets/concertScout.png'
+import travelBug from './assets/travelBug.png'
+import recipEase from './assets/recipEase.png'
 
 export default function Projects() {
     return (
@@ -34,6 +37,33 @@ export default function Projects() {
                     <div className="card-text">
                         <p>Phaser.js Skill Path</p>
                         <a href="https://austinslatey.github.io/winter-wonderland/">WinterWonderland</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="img-container">
+                        <img src={concertScout} alt="concertScout"></img>
+                    </div>
+                    <div className="card-text">
+                        <p>Full Stack Bootcamp: Group Projects</p>
+                        <a href="https://austinslatey.github.io/concert-scout/">ConcertScout</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="img-container">
+                        <img src={travelBug} alt="travelBug"></img>
+                    </div>
+                    <div className="card-text">
+                        <p>Full Stack Bootcamp: Group Projects</p>
+                        <a href="https://github.com/Metelak/Travel-bug">TravelBug</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="img-container">
+                        <img src={recipEase} alt="recipEase"></img>
+                    </div>
+                    <div className="card-text">
+                        <p>Full Stack Bootcamp: Group Projects</p>
+                        <a href="https://austinslatey.github.io/winter-wonderland/">RecipEase</a>
                     </div>
                 </div>
             </div>

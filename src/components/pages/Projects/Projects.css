@@ -1,7 +1,6 @@
 .cardContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
-    grid-template-rows: auto auto;
     background-color: #2196;
     padding: 10px;
     resize: both;
@@ -9,6 +8,7 @@
 }
 
 .card {
+    grid-column:span 2;
     background-color: #2196;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.8);
