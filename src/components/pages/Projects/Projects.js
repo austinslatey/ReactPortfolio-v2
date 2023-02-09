@@ -6,6 +6,10 @@ import cubeMatcher from './assets/cubeMatcher.png'
 import concertScout from './assets/concertScout.png'
 import travelBug from './assets/travelBug.png'
 import recipEase from './assets/recipEase.png'
+import jamming from './assets/jamming.png'
+import catWorx from './assets/catWorx.png'
+import tsunamiCoffee from './assets/tsunamiCoffee.png'
+
 
 export default function Projects() {
     return (
@@ -63,7 +67,34 @@ export default function Projects() {
                     </div>
                     <div className="card-text">
                         <p>Full Stack Bootcamp: Group Projects</p>
-                        <a href="https://austinslatey.github.io/winter-wonderland/">RecipEase</a>
+                        <a href="https://github.com/austinslatey/RecipEase">RecipEase</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="img-container">
+                        <img src={jamming} alt="jamming"></img>
+                    </div>
+                    <div className="card-text">
+                        <p>Side Project</p>
+                        <a href="https://bucolic-baklava-e825fb.netlify.app">Jamming</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="img-container">
+                        <img src={catWorx} alt="catWorx"></img>
+                    </div>
+                    <div className="card-text">
+                        <p>Side Project</p>
+                        <a href="https://github.com/austinslatey/Catwork-Security">CatWorx</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="img-container">
+                        <img src={tsunamiCoffee} alt="tsunamiCoffee"></img>
+                    </div>
+                    <div className="card-text">
+                        <p>Side Project</p>
+                        <a href="https://austinslatey.github.io/Tsunami-Coffee/">TsunamiCoffee</a>
                     </div>
                 </div>
             </div>
