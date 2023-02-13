@@ -1,7 +1,8 @@
 .homeContainer {
-  background-image: linear-gradient(#0bd1ff, #ffa3ff, #ffd34e);
+  background-image: linear-gradient(#1038b4, #b00b0b, #1038b4);
   height: 100vh;
   min-height: 100vh;
+  
 }
 
 .banner {
@@ -9,8 +10,7 @@
   flex-wrap: wrap;
   flex: 1;
   position: relative;
-  background-size: cover;
-  background-image: linear-gradient(#0bd1ff, #ffa3ff, #ffd34e);
+ 
   text-align: center;
   margin-bottom: 25px;
 }
@@ -18,16 +18,18 @@
 
 
 h1 {
-  padding-top: 2rem;
-  padding-bottom: 1.25rem;
+  margin: 0;
+  padding: 5rem;
   font-family: "Creepster", cursive;
   font-size: 6rem;
-  color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
 }
 
 .banner p {
+  padding: 5rem;
   color: white;
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
 }
