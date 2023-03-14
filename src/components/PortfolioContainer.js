@@ -8,13 +8,6 @@ import Certificates from "./pages/Certificates/Certificates";
 
 import Footer from "../Footer/Footer";
 
-
-
-
-
-
-
-
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
 
