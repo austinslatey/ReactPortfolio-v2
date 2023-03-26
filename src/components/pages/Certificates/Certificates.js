@@ -14,10 +14,10 @@ export default function Certificates() {
             <h2>Certificates</h2>
             <div className="container">
                 <div className="img-container">
-                    <img src={UofM} alt="uofm"></img>
+                    <img src={PhaserJS} alt="PhaserJS"></img>
                 </div>
                 <div className="img-container">
-                    <img src={PhaserJS} alt="PhaserJS"></img>
+                    <img src={UofM} alt="uofm"></img>
                 </div>
                 <div className="img-container">
                     <img src={javaScript} alt="javaScript"></img>
@@ -31,8 +31,8 @@ export default function Certificates() {
                 <div className="img-container">
                     <img src={Cli} alt="Cli"></img>
                 </div>
-                <div id="responsiveCssContainer" className="img-container">
-                    <img src={responsiveCSS} alt="responsiveCSS" id="responsiveCSS"></img>
+                <div className="img-container">
+                    <img src={responsiveCSS} alt="responsiveCSS"></img>
                 </div>
             </div>
         </div>
