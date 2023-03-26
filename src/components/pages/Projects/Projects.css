@@ -3,20 +3,19 @@ h2 {
     margin: 0;
     padding: 5px;
     color: #fff;  
-
-}
-
-.cardContainer {
+  }
+  
+  .cardContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
     background-image: linear-gradient(#1038b4, #b00b0b, #1038b4);
     padding: 10px;
     resize: both;
     overflow: auto;
-}
-
-.card {
-    grid-column:span 3;
+  }
+  
+  .card {
+    grid-column: span 3;
     background-color: #2196;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
@@ -24,27 +23,28 @@ h2 {
     text-align: center;
     margin: 10px;
     justify-content: space-between;
-
-}
-
-img {
+  }
+  
+  img {
     height: 500px;
-}
-
-.card-text {
+  }
+  
+  .card-text {
     color: #fff;
     text-align: center;
-}
-
-.card-text a {
+  }
+  
+  .card-text a {
     color: #00FF66;
     border: 2px solid rgba(0, 0, 0, 0.8);
     border-radius: 1rem;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-.card-text a:hover {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .card-text a:hover {
     background-color: #00FF66;
     color: black;
-}
+  }
