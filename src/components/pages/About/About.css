@@ -1,53 +1,69 @@
-.about-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 2rem;
-  }
-  
-  .description-container {
-    width: 100%;
-    max-width: 750px;
-    margin: 1rem;
-    text-align: justify;
-    flex-basis: calc(60% - 3rem);
-  }
-  
-  .skills-container {
-    margin: 1rem;
-    flex-basis: calc(40% - 3rem);
-    height: 200px; /* adjust height as needed */
-    overflow-y: scroll;
-  }
-  
-  .about-text {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-  }
-  
-  .about-text:last-child {
-    margin-bottom: 0;
-  }
-  
-  .skills-container ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .skills-container li {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-  }
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
 
-  .skill-item {
-    font-weight: bold;
-    color: #1038b4;
-    cursor: pointer;
-    transition: color 0.2s ease-in-out;
-  }
-  
-  .skill-item:hover {
-    color: #b00b0b;
-  }
+.skills-container {
+  width: 100%;
+  max-width: 750px;
+  margin: 1rem;
+  text-align: justify;
+  flex-basis: calc(40% - 3rem);
+  height: 850px;
+  overflow-y: scroll;
+}
+
+
+.card-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-text:last-child {
+  margin-bottom: 0;
+}
+
+.skills-container ul {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 0;
+
+
+}
+
+.skills-container li {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  list-style: none;
+  text-align: center;
+}
+
+.skill-item {
+  font-weight: bold;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.skill-item:hover {
+  color: var(--secondary-color);
+}
+.skill-name {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #1038b4;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.skill-name:hover {
+  background-color: #b00b0b;
+}
+

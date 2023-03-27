@@ -11,13 +11,12 @@ import './Certificates.css'
 export default function Certificates() {
     return (
         <div>
-            <h2>Certificates</h2>
             <div className="container">
                 <div className="img-container">
-                    <img src={PhaserJS} alt="PhaserJS"></img>
+                    <img src={UofM} alt="uofm"></img>
                 </div>
                 <div className="img-container">
-                    <img src={UofM} alt="uofm"></img>
+                    <img src={PhaserJS} alt="PhaserJS"></img>
                 </div>
                 <div className="img-container">
                     <img src={javaScript} alt="javaScript"></img>
