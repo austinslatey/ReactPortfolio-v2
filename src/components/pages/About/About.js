@@ -1,14 +1,14 @@
 import React from "react";
 import "./About.css";
 import './colors.css';
-import selfie from "./assets/imgs/selfie.png"
+// import selfie from "./assets/imgs/selfie.png"
 import skills from "./assets/js/skills";
 
 export default function About() {
     return (
         <div className="cardContainer">
             <div className="card">
-                <img src={selfie} alt="About me" />
+                {/* <img src={selfie} alt="About me" /> */}
                 <div className="card-text">
                     <h2>About Me</h2>
                     <p>Hello! My name is Austin Slater, and I'm a Full-Stack Web Developer
