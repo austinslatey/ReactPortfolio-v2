@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 1rem;
-  width: 100%;
+  width: 90%;
   max-width: 750px;
   border-radius: 10px;
   overflow: hidden;
@@ -48,4 +48,16 @@
 
 .card-text a:hover {
   background-color: #b00b0b;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-container {
+    height: 400px;
+    width: 90%;
+  }
 }

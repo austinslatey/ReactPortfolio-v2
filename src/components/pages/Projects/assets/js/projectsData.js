@@ -34,7 +34,7 @@ const projectsData = [
     {
         id: 4,
         title: 'ConcertScout',
-        description: 'A concert and music festival discovery app built with React and Firebase',
+        description: 'A concert and music festival discovery app built with HTML, CSS, JavaScript, & Third Party APIs',
         image: concertScout,
         link: 'https://austinslatey.github.io/concert-scout/'
     },
@@ -62,17 +62,10 @@ const projectsData = [
     {
         id: 8,
         title: 'CatWorx',
-        description: 'A cat-themed security company website built with HTML, CSS, and JavaScript',
+        description: 'A cat-themed security company website built with C#',
         image: catWorx,
         link: 'https://github.com/austinslatey/Catwork-Security'
     },
-    // {
-    //     id: 9,
-    //     title: 'TsunamiCoffee',
-    //     description: 'A coffee shop website built with HTML, CSS, and JavaScript',
-    //     image: tsunamiCoffee,
-    //     link: 'https://austinslatey.github.io/Tsunami-Coffee/'
-    // },
 
 ];
 

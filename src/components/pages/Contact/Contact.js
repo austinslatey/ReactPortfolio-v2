@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contact.css'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -20,7 +21,7 @@ export default function Contact() {
   return (
     <div>
       <h2>Contact Us</h2>
-      <form onSubmit={handleSubmit}>
+      <form className="contact-form" onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
 
@@ -30,8 +31,8 @@ export default function Contact() {
         <label htmlFor="message">Message:</label>
         <textarea id="message" name="message" value={formData.message} onChange={handleChange}></textarea>
 
-        <button type="submit">Submit</button>
-      </form>
+        <button type="submit" className="submit-btn">Submit</button>
+        </form>
     </div>
   );
 }

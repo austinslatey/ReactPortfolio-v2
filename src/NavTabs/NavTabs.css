@@ -24,3 +24,15 @@
 .nav-item a {
   color: rgba(255, 255, 255, 0.8);
 }
+
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+  .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+}
